@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+
+/*----------Leave days section----------*/
+.leave-dates{
+  border-top: black solid 1.5px;
+  display: flex;
+  text-align: center;
+  place-content: space-between;
+}
+
+.leave-date{
+  background-color: rgb(221, 221, 221);
+  border-radius: 6px;
+  text-align: center;
+  width: 3cm;
+  margin-top: 1px;
+}
+
+span{
+  font-size: 10px;
+}
+
+/*---------Apply leave section---------*/
+.apply-leave-section{
+  border: black solid 2px;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+.apply-leave-section p {
+  background-color: rgb(221, 221, 221) ;
+  margin-top: 0px;
+  border-top-left-radius: 4px;
+  border-top-right-radius:4px;
+  padding-left: 10px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  height: fit-content;
+}
+
+.apply-leave-section input,select{
+  border:none;
+  border-bottom: black solid 1px;
+}
+
+.apply-leave-section input,select:focus{
+  outline: none;
+}
+
+.apply-leave-section label{
+  padding: 10px ;
+}
+
+.leave-type{
+  padding-bottom: 70px;
+  padding-top: 20px;
+}
+
+.date-inputs{
+  padding-bottom: 20px;
+}
+
+.date-inputs input{
+  margin-right: 200px;
+}
+
+.comments-button-section{
+  padding-bottom: 20px;
+}
+
+#submit-btn{
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background-color: black;
+  padding: 0.8em 2em;
+  border-radius: 8px;
+  color: white;
+}
+
+ 
+
